@@ -594,7 +594,6 @@ svg use {
 }
 
 .new-item {
-  margin-bottom: 16px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -602,8 +601,31 @@ svg use {
   color: #ffffff;
 }
 
-.form-class {
+.Subscribe-p {
+  margin-bottom: 16px;
+}
+
+.my-form {
   display: flex;
+  gap: 24px;
+}
+
+.my-input {
+  width: 264px;
+  height: 40px;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: #ffffff;
+}
+
+.my-input::placeholder {
+  color: #ffffff; /* Визначте кольору тексту для атрибута placeholder */
 }
 /* New-section */
 .new-section {
