@@ -592,3 +592,19 @@ svg use {
   margin-bottom: 16px;
   /* Додайте інші стилі за потребою */
 }
+
+.new-item {
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.form-class {
+  display: flex;
+}
+/* New-section */
+.new-section {
+}
