@@ -779,3 +779,19 @@ svg use {
 .input-style:focus {
   border-color: #4d5ae5;
 }
+
+.icons-user {
+}
+
+.icons-phone {
+  width: 18;
+  height: 24;
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.icons-phone:focus {
+  fill: #4d5ae5;
+}
