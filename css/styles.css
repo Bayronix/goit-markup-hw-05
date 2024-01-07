@@ -717,12 +717,30 @@ svg use {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-button:hover .icon-svg,
-.modal-button:focus .icon-svg {
+.modal-button:hover .icon-button,
+.modal-button:focus .icon-buttons {
   fill: #ffffff;
 }
 
-/* Стилі для модального вікна */
 .modal-content {
   padding: 72px 24px 24px 24px;
+}
+
+.modal-content p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+  margin-bottom: 16px;
+}
+
+/* Стилі для форми */
+.modal-content form {
+}
+
+.icon-button {
+  width: 8px;
+  height: 8px;
 }
