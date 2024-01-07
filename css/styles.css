@@ -647,6 +647,14 @@ svg use {
   border: none;
   border-radius: 4px;
 }
+
+.my-svg {
+  width: 24px;
+  height: 24px;
+  order: 2;
+  margin-left: 16px;
+}
+
 /* New-section */
 .new-section {
 }
