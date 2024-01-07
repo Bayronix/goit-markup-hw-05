@@ -603,6 +603,7 @@ svg use {
 
 .Subscribe-p {
   margin-bottom: 16px;
+  margin-left: 80px;
 }
 
 .my-form {
@@ -622,6 +623,7 @@ svg use {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   color: #ffffff;
+  margin-left: 80px;
 }
 
 .my-input::placeholder {
