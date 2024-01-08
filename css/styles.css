@@ -605,7 +605,7 @@ svg use {
   margin-bottom: 16px;
   margin-left: 80px;
 }
-
+/*  */
 .my-form {
   display: flex;
   gap: 24px;
@@ -777,6 +777,15 @@ svg use {
 }
 
 .icon-user {
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  fill: #4d5ae5;
+}
+
+.icon-phone {
   position: absolute;
   left: 16px;
   top: 50%;
