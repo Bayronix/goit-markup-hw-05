@@ -764,6 +764,7 @@ svg use {
   display: block;
   width: 18px;
   height: 24px;
+  fill: #2e2f42;
 }
 
 .icon-user,
