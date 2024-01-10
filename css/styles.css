@@ -735,7 +735,7 @@ svg use {
 .modal-form {
 }
 
-.form-container {
+.form-div {
   position: relative;
   margin-bottom: 8px;
 }
@@ -770,6 +770,7 @@ svg use {
 .icon-user {
   width: 18px;
   height: 24px;
+  flex-shrink: 0;
   position: absolute;
   fill: #2e2f42;
   top: 50%;
