@@ -785,6 +785,27 @@ svg use {
 
 /* Additional styles for other classes/icons if needed */
 /* the 4th div  */
+.input-textarea {
+  color: rgba(46, 47, 66, 0.4);
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  height: 120px;
+  resize: none;
+  padding: 8px 16px;
+  width: 100%;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+  background-color: transparent;
+  outline: transparent;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.input-textarea:focus {
+  border-color: #4d5ae5;
+}
+.form-lebel-checkbox {
+  margin-bottom: 24px;
+}
 /* the 5th div */
 /* Стилі для textarea */
 textarea.input-style {
