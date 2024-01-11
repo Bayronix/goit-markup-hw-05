@@ -808,21 +808,22 @@ svg use {
 }
 /* the 5th div */
 /* Стилі для textarea */
-.form-checkbox {
+.form-lebel-checkbox {
   margin-bottom: 24px;
 }
 
-.input-checkbox {
-}
-
-.label-style-checkbox {
+.input-checkbox-lebel {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
 }
-
 .form-lebel-span {
+  position: relative;
+  fill: transparent;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -830,15 +831,29 @@ svg use {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  fill: transparent;
 }
 
+.modal .form-title-input-name:focus + svg {
+  fill: #4d5ae5;
+}
+
+.input-title:checked + label span {
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
+}
 .icon-checket {
-  width: 10px;
-  height: 8px;
+  width: 16px;
+  height: 16px;
+}
+/*input[type="checkbox"]:checked {
+    background-color:#404BBF;
+    border: none;
+    fill:#F4F4FD;
+}*/
+.form-link {
+  color: #4d5ae5;
+  text-decoration: underline;
 }
 
 .button-bottom {
@@ -856,4 +871,8 @@ svg use {
   background-color: #4d5ae5;
   border: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.button-bottom:hover {
+  background: #404bbf;
 }
