@@ -780,6 +780,10 @@ svg use {
   fill: #2e2f42;
 }
 
+.icon-user:hover {
+  fill: #4d5ae5;
+}
+
 .input-style:focus {
   border-color: #4d5ae5;
 }
