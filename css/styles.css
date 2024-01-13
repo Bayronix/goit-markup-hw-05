@@ -707,7 +707,11 @@ svg:focus {
   outline: none;
 }
 
-.modal-button:hover .modal-icon use {
+.modal-button:focus {
+  fill: #ffffff;
+}
+
+.modal-button:hover {
   fill: #ffffff;
 }
 
@@ -784,10 +788,6 @@ svg:focus {
 
 .icon-user use {
   fill: #2e2f42;
-}
-
-.icon-user:hover use {
-  fill: #4d5ae5;
 }
 
 .input-style:focus + .icon-user use {
