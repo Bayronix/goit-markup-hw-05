@@ -707,11 +707,11 @@ svg:focus {
   outline: none;
 }
 
-.modal-button:focus {
+.modal-button:focus use {
   fill: #ffffff;
 }
 
-.modal-button:hover {
+.modal-button:hover use {
   fill: #ffffff;
 }
 
