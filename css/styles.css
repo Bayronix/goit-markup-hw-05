@@ -798,8 +798,11 @@ svg:focus {
   border-color: #4d5ae5;
 }
 
-/* Additional styles for other classes/icons if needed */
 /* the 4th div  */
+
+.form-new-div {
+  margin-bottom: 16px;
+}
 
 .input-textarea {
   color: rgba(46, 47, 66, 0.4);
@@ -862,11 +865,7 @@ svg:focus {
   width: 16px;
   height: 16px;
 }
-/*input[type="checkbox"]:checked {
-    background-color:#404BBF;
-    border: none;
-    fill:#F4F4FD;
-}*/
+
 .form-link {
   color: #4d5ae5;
   text-decoration: underline;
