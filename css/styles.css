@@ -729,9 +729,6 @@ svg use {
   margin-bottom: 16px;
 }
 
-.modal-form {
-}
-
 .form-div {
   position: relative;
   margin-bottom: 8px;
@@ -780,7 +777,7 @@ svg use {
   fill: #2e2f42;
 }
 
-.icon-user:hover {
+.icon-user:hover use {
   fill: #4d5ae5;
 }
 
